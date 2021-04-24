@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 4px;
+  font-size: 17px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.17);
+  padding: 0 10px;
+  align-items: center;
+  text-decoration: none;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+a:hover {
+  background-color: lightgrey;
+}
+
+.navbar_header_others {
+  display: flex;
+  list-style: none;
+}
+
+.navbar_header_others > li {
+  padding: 0 10px;
+}
+
+.navbar_header_br {
+  padding-left: 8px;
+}
+
+.home {
+  background-image: url(image/architect.jpg);
+  background-size: cover;
+  height: 700px;
+  /* margin-top: -15px; */
+}
+
+.home > h2 {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  font-size: 35px;
+  color: aliceblue;
+}
+
+.home_br {
+  position: relative;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.projects {
+  font-size: 33px;
+  margin-left: 12px;
+  margin-bottom: 5px;
+  background-color: red;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.projects_image {
+  display: flex;
+}
+
+.projects_image > div > img {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.projects_image > div > h4 {
+  position: relative;
+  bottom: 276px;
+  left: 15px;
+  background-color: black;
+  color: aliceblue;
+  display: inline-block;
+  padding: 8px 12px;
+}
+
+.projects_image_row-2 {
+  display: flex;
+}
+
+.projects_image_row-2 > div > img {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.projects_image_row-2 > div > h4 {
+  position: relative;
+  bottom: 276px;
+  left: 15px;
+  background-color: black;
+  color: aliceblue;
+  display: inline-block;
+  padding: 8px 12px;
+}
+
+.about_title {
+  font-size: 33px;
+  margin-left: 12px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.section_2 {
+  display: block;
+  margin: 0 15px;
+}
+
+hr {
+  background-color: lightgray;
+}
+
+.section_2 > p {
+  margin: 0 20px;
+}
+
+.card_1 {
+  max-width: 300px;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: lightgray;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.profile_card {
+  display: flex;
+  justify-content: space-around;
+}
