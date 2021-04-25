@@ -70,9 +70,8 @@ a:hover {
 }
 
 .projects {
-  font-size: 33px;
-  margin-left: 12px;
-  margin-bottom: 5px;
+  font-size: 30px;
+  margin: 150px 20px 20px 20px;
   background-color: red;
   padding-left: auto;
   padding-right: auto;
